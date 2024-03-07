@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color:hsl(30, 54%, 90%) ;
+   
+}
+
+
+/*This is the huge white box that contains all elements. */
+.main{
+    background-color: hsl(0, 0%, 100%);
+    width: 820px;
+    height: 2150px;
+    margin-left: 270px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    border-radius: 29px;
+    scroll-behavior: smooth;
+    
+}
+
+img{
+    width: 750px;
+    margin-left: 33px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+h6{
+   margin-left: 40px;
+   margin-top: 25px;
+   font-family: Young Serif;
+   font-weight:lighter;
+   font-size: 50px;
+   color:  hsl(24, 5%, 18%);
+   letter-spacing: 0.5px;
+   
+}
+
+.p1{
+    margin-left: 40px;
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 0.3px;
+    font-family: outfit;
+    color:#6F6B67;
+    
+}
+
+.prep{
+    width: 750px;
+    height: 230px;
+    margin-left: 33px;
+    margin-top: 40px;
+    border-radius: 15px;
+    background-color: hsl(30, 54%, 90%);
+    opacity: 0.95;
+}
+
+.prep h4{
+    margin-left: 30px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Outfit;
+    letter-spacing: 0.5;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep ul li {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: outfit;
+    color:#605753;
+}
+
+.total{
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+h3{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: Young Serif;
+    font-weight: lighter;
+    color: hsl(14, 45%, 36%);
+}
+
+ ul li{
+    margin-left: 60px;
+    margin-top: 20px;
+    color: #605753 ;
+}
+
+
+.eggs{
+    margin-left: 20px;
+    font-family: outfit;
+    color: #605753 ;
+}
+
+hr{
+    margin-left: 40px;
+    opacity: 0.5;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+h2{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: Young Serif;
+    font-weight: lighter;
+    color: hsl(14, 45%, 36%);  
+}
+
+
+ ol li{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family: outfit;
+    font-weight: bolder;
+    color: hsl(14, 45%, 36%) ;
+ }
+
+.Crush{
+    font-weight: 800;
+    margin-left: 20px;
+    color: #585451;
+}
+
+.prgph{
+    color:#5C5855 ;
+    font-weight: lighter; 
+}
+
+.prgph1{
+ margin-left: 20px;    
+}
+
+.lbrk2{
+    margin-left: 40px;
+    opacity: 0.5;
+    margin-right: 30px;
+    margin-top: 40px  
+}
+
+h1{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: Young Serif;
+    font-weight: lighter;
+    color: hsl(14, 45%, 36%);   
+}
+
+.p2{
+    margin-top: 40px;
+    margin-left: 70px;
+    font-family: outfit;
+    color:#828180 ;
+    font-size: 19px;
+}
+
+.Cal{
+    margin-left: 400px;
+    color: hsl(14, 45%, 36%);   
+    font-weight: bold;
+    font-size: 19px;
+    font-family: outfit;
+}
+
+.Carb{
+    margin-left: 430px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-size: 19px;
+    font-family: outfit;
+}
+
+.Prt{
+    margin-left: 420px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-size: 19px;
+    font-family: outfit;  
+}
+
+.Ft{
+    margin-left: 450px;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-size: 19px;
+    font-family: outfit;  
+}
+
+@media screen and (max-width: 375px) {
+  .main{
+    height: 2400px;
+    width: 375px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: -40px;
+    border-radius: 0px;
+  }
+
+  img{
+    width: 375px;
+    margin-top: 0px;
+    border-radius: 0px;
+    margin-left: 0px;
+  }
+
+  h6{
+  font-size: 40px; 
+  letter-spacing: -1px;
+  margin-left: 20px;
+   }
+
+   .p1{
+    margin-left:17px;
+   }
+
+  .prep{
+    width: 330px;
+    margin-left: 20px;
+  }
+
+  .Crush{
+    margin-left: 10px;
+  }
+
+  .prgph1{
+    margin-left:0px;
+  }
+
+
+  .Cal{
+    margin-left:100px;
+  }
+
+  .Carb{
+    margin-left: 130px;
+  }
+
+  .Prt{
+    margin-left: 110px;
+  }
+
+  .Ft{
+    margin-left: 140px;
+  }
+}
+
